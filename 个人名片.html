@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱雨剑的个人名片</title>
+    <link rel="stylesheet" href="clear.css">
+    <style>
+
+        p{
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style:grey;
+        }
+
+        body{
+            height: 817.906px;
+            margin:0;
+            background-image: url("card.jpg");
+        }
+
+        @keyframes myfirst{
+            0%{background:pink;}
+            50%{background: gray;}
+        }
+        .center{
+            width: 475;
+            margin-left: 475px;
+            margin-right:475px ;
+            height: 800px;
+            background-color: pink;
+            animation: myfirst 5s 1000;
+            }
+
+        .wxhead{
+            border-radius: 50%;
+            overflow: hidden;
+            height: 80px;
+            position: absolute;
+            left: 47%;
+            top: 25%;
+        }
+
+        .contact{
+                position: absolute;
+                top: 40%;
+        }
+         .name,.phone{
+            list-style-type: none;
+        } 
+
+        
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="center">
+
+        <img  class="wxhead" src="wx.png" alt="蒸汽机器人" title="蒸汽机器人"> 
+        
+        
+        <ul class="contact">
+            <li class="name"> </li>
+            <li class="phone"> </li>
+            <li class="wx"></li>
+            <li class="qq"></li>
+        </ul>
+
+    </div>
+
+
+  <!-- <marquee width="100%" height="200px" behavior="scroll" direction="right" loop="10" onmousemove="this.stop()" onmouseout="this.start()">滚动内容</marquee> -->
+    
+
+</body>
+</html>
